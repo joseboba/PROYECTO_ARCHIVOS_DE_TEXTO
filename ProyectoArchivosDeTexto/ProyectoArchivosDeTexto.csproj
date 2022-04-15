@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39662F5D-99BD-4A14-916B-EBB8D499D1E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoArchivosDeTexto</RootNamespace>
+    <AssemblyName>ProyectoArchivosDeTexto</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actualizar Inscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar Inscripcion.Designer.cs">
+      <DependentUpon>Actualizar Inscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Asignacion.Designer.cs">
+      <DependentUpon>Actualizar_Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Catedratico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Catedratico.Designer.cs">
+      <DependentUpon>Actualizar_Catedratico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Centro_Educativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Centro_Educativo.Designer.cs">
+      <DependentUpon>Actualizar_Centro_Educativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Curso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Curso.Designer.cs">
+      <DependentUpon>Actualizar_Curso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Detalle_Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Detalle_Asignacion.Designer.cs">
+      <DependentUpon>Actualizar_Detalle_Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Estudiante.Designer.cs">
+      <DependentUpon>Actualizar_Estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Pago.Designer.cs">
+      <DependentUpon>Actualizar_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agergar_Detalle_Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agergar_Detalle_Asignacion.Designer.cs">
+      <DependentUpon>Agergar_Detalle_Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Asignacion.Designer.cs">
+      <DependentUpon>Agregar_Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Catedratico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Catedratico.Designer.cs">
+      <DependentUpon>Agregar_Catedratico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Centro_Educativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Centro_Educativo.Designer.cs">
+      <DependentUpon>Agregar_Centro_Educativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Curso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Curso.Designer.cs">
+      <DependentUpon>Agregar_Curso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Estudiante.Designer.cs">
+      <DependentUpon>Agregar_Estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Inscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Inscripcion.Designer.cs">
+      <DependentUpon>Agregar_Inscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Pago.Designer.cs">
+      <DependentUpon>Agregar_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asignacion.Designer.cs">
+      <DependentUpon>Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Asignacion.Designer.cs">
+      <DependentUpon>Buscar_Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Catedratico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Catedratico.Designer.cs">
+      <DependentUpon>Buscar_Catedratico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Centro_Educativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Centro_Educativo.Designer.cs">
+      <DependentUpon>Buscar_Centro_Educativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Curso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Curso.Designer.cs">
+      <DependentUpon>Buscar_Curso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Detalle_Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Detalle_Asignacion.Designer.cs">
+      <DependentUpon>Buscar_Detalle_Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Estudiante.Designer.cs">
+      <DependentUpon>Buscar_Estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Inscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Inscripcion.Designer.cs">
+      <DependentUpon>Buscar_Inscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Pago.Designer.cs">
+      <DependentUpon>Buscar_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catedratico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catedratico.Designer.cs">
+      <DependentUpon>Catedratico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Centro_Educativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Centro_Educativo.Designer.cs">
+      <DependentUpon>Centro_Educativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Curso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Curso.Designer.cs">
+      <DependentUpon>Curso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Detalle_Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detalle_Asignacion.Designer.cs">
+      <DependentUpon>Detalle_Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar Inscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar Inscripcion.Designer.cs">
+      <DependentUpon>Eliminar Inscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar_Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_Asignacion.Designer.cs">
+      <DependentUpon>Eliminar_Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar_Catedratico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_Catedratico.Designer.cs">
+      <DependentUpon>Eliminar_Catedratico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar_Centro_Educativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_Centro_Educativo.Designer.cs">
+      <DependentUpon>Eliminar_Centro_Educativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar_Curso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_Curso.Designer.cs">
+      <DependentUpon>Eliminar_Curso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar_Detalle_Asignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_Detalle_Asignacion.Designer.cs">
+      <DependentUpon>Eliminar_Detalle_Asignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar_Estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_Estudiante.Designer.cs">
+      <DependentUpon>Eliminar_Estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_Pago.Designer.cs">
+      <DependentUpon>Eliminar_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estudiante.Designer.cs">
+      <DependentUpon>Estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inscripcion.Designer.cs">
+      <DependentUpon>Inscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagos.Designer.cs">
+      <DependentUpon>Pagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Actualizar Inscripcion.resx">
+      <DependentUpon>Actualizar Inscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Asignacion.resx">
+      <DependentUpon>Actualizar_Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Catedratico.resx">
+      <DependentUpon>Actualizar_Catedratico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Centro_Educativo.resx">
+      <DependentUpon>Actualizar_Centro_Educativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Curso.resx">
+      <DependentUpon>Actualizar_Curso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Detalle_Asignacion.resx">
+      <DependentUpon>Actualizar_Detalle_Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Estudiante.resx">
+      <DependentUpon>Actualizar_Estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Pago.resx">
+      <DependentUpon>Actualizar_Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agergar_Detalle_Asignacion.resx">
+      <DependentUpon>Agergar_Detalle_Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Asignacion.resx">
+      <DependentUpon>Agregar_Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Catedratico.resx">
+      <DependentUpon>Agregar_Catedratico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Centro_Educativo.resx">
+      <DependentUpon>Agregar_Centro_Educativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Curso.resx">
+      <DependentUpon>Agregar_Curso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Estudiante.resx">
+      <DependentUpon>Agregar_Estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Inscripcion.resx">
+      <DependentUpon>Agregar_Inscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Pago.resx">
+      <DependentUpon>Agregar_Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asignacion.resx">
+      <DependentUpon>Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Asignacion.resx">
+      <DependentUpon>Buscar_Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Catedratico.resx">
+      <DependentUpon>Buscar_Catedratico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Centro_Educativo.resx">
+      <DependentUpon>Buscar_Centro_Educativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Curso.resx">
+      <DependentUpon>Buscar_Curso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Detalle_Asignacion.resx">
+      <DependentUpon>Buscar_Detalle_Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Estudiante.resx">
+      <DependentUpon>Buscar_Estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Inscripcion.resx">
+      <DependentUpon>Buscar_Inscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Pago.resx">
+      <DependentUpon>Buscar_Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catedratico.resx">
+      <DependentUpon>Catedratico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Centro_Educativo.resx">
+      <DependentUpon>Centro_Educativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Curso.resx">
+      <DependentUpon>Curso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detalle_Asignacion.resx">
+      <DependentUpon>Detalle_Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar Inscripcion.resx">
+      <DependentUpon>Eliminar Inscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_Asignacion.resx">
+      <DependentUpon>Eliminar_Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_Catedratico.resx">
+      <DependentUpon>Eliminar_Catedratico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_Centro_Educativo.resx">
+      <DependentUpon>Eliminar_Centro_Educativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_Curso.resx">
+      <DependentUpon>Eliminar_Curso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_Detalle_Asignacion.resx">
+      <DependentUpon>Eliminar_Detalle_Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_Estudiante.resx">
+      <DependentUpon>Eliminar_Estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_Pago.resx">
+      <DependentUpon>Eliminar_Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estudiante.resx">
+      <DependentUpon>Estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inscripcion.resx">
+      <DependentUpon>Inscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagos.resx">
+      <DependentUpon>Pagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
