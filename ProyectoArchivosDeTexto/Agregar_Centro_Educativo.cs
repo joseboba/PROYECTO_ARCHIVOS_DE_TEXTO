@@ -73,8 +73,13 @@ namespace ProyectoArchivosDeTexto
                 list.Add(line); 
             }
             read.Close();
-            int id = int.Parse(list[list.Count - 1].Split('|')[0]);
-            return id + 1;
+
+            int id = 1;
+            if (list.Count > 0)
+            {
+                id = int.Parse(list[list.Count - 1].Split('|')[0]);
+            }
+            return (list.Count <= 0) ? id : id + 1;
         } 
        
     }
